@@ -1,34 +1,32 @@
 # TugasWebViewFabric
 
-Project ini merupakan aplikasi mobile berbasis React Native yang mengimplementasikan WebView dengan menggunakan dua pendekatan, yaitu WebViewFabric dan WebViewMIT.
+Project ini merupakan tugas pengembangan aplikasi mobile yang terdiri dari dua implementasi aplikasi WebView, yaitu **WebViewFabric** dan **WebViewMIT**. Keduanya dikembangkan menggunakan React Native dengan pendekatan implementasi yang berbeda.
 
 ## Tampilan Aplikasi
 
-### WebViewFabric
+### 1. WebViewFabric
 
 ![Antarmuka WebViewFabric](https://github.com/user-attachments/assets/cff17553-9338-4fdd-b94f-b0592312fdbf)
 
-### WebViewMIT
+### 2. WebViewMIT
 
 ![Antarmuka WebViewMIT](https://github.com/user-attachments/assets/7ba11560-51a2-42dd-9d7f-20af64ace0a7)
 
 ## Teknologi yang Digunakan
 
-- **React Native** – Framework untuk pengembangan aplikasi mobile.
-- **JavaScript / TypeScript** – Bahasa pemrograman untuk pengembangan aplikasi.
-- **React Native CLI** – Tools untuk membuat dan menjalankan project React Native.
-- **WebView** – Komponen untuk menampilkan halaman web di dalam aplikasi mobile.
+- **React Native** – Framework pengembangan aplikasi mobile.
+- **React Native CLI** – Tools untuk mengelola dan menjalankan project.
+- **WebView** – Komponen untuk menampilkan halaman web di dalam aplikasi.
+- **JavaScript / TypeScript** – Bahasa pemrograman yang digunakan.
 
 ## Persyaratan
-
-Sebelum menjalankan project, pastikan perangkat sudah memiliki:
 
 - Node.js
 - NPM (Node Package Manager)
 - Android Studio
 - Android SDK
 - JDK
-- Emulator Android atau perangkat Android fisik
+- Emulator Android atau perangkat Android fisik.
 
 ## Cara Instalasi
 
@@ -54,8 +52,6 @@ Sebelum menjalankan project, pastikan perangkat sudah memiliki:
 
 ### 1. Menjalankan Metro
 
-Buka terminal pada direktori project, kemudian jalankan:
-
 ```bash
 npm start
 ```
@@ -72,18 +68,8 @@ Pastikan emulator Android sudah berjalan atau perangkat Android sudah terhubung.
 
 ## Pengembangan Aplikasi
 
-Untuk melakukan perubahan pada aplikasi, buka file `App.tsx` menggunakan code editor.
-
-React Native menggunakan fitur **Fast Refresh**, sehingga perubahan kode dapat langsung ditampilkan pada aplikasi tanpa harus melakukan build ulang secara keseluruhan.
+Pengembangan aplikasi dilakukan melalui file `App.tsx`. React Native menyediakan fitur Fast Refresh sehingga perubahan kode dapat langsung ditampilkan pada aplikasi.
 
 ## Repository
 
 GitHub: https://github.com/ynrwy/TugasWebViewFabric
-
-## Developer
-
-**Yovi Nurwijaya Kusumah**
-
----
-
-*Dibuat untuk memenuhi tugas praktikum pengembangan aplikasi mobile.*
